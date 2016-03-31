@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:schema="http://schema.org/">
+
+  <schema:AudioObject rdf:about="http://1001Stories.org/ark:/#34567/dfdghvbjk">
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antarctic moss</schema:name>
+    <schema:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diana King tells the story of her research about Antarctic moss.</schema:description>
+    <schema:datecreated>2014-06-25</schema:datecreated>
+    <schema:locationCreated>
+      <schema:place>
+        <schema:geo>
+          <schema:GeoCoordinates>
+            <schema:latitude>-34.4054039</schema:latitude>
+            <schema:longitude>150.8762413</schema:longitude>
+          </schema:GeoCoordinates>
+        </schema:geo>
+
+      </schema:place>
+    </schema:locationCreated>
+
+  </schema:AudioObject>
+
+</rdf:RDF>

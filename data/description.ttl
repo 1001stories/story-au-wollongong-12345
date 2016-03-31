@@ -1,0 +1,17 @@
+  @base <http://1001Stories.org/ark:/> .
+  @prefix schema: <http://schema.org/> .
+  @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+  <#34567/dfdghvbjk>
+    a schema:AudioObject ;
+    schema:name "Antarctic moss"^^xsd:string ;
+    schema:description "Diana King tells the story of her research about Antarctic moss."^^xsd:string ;
+    schema:datecreated "2014-06-25" ;
+    schema:locationCreated [
+        a schema:place ;
+        schema:geo [
+           a schema:GeoCoordinates ;
+           schema:latitude "-34.4054039" ;
+           schema:longitude "150.8762413"
+        ] ;
+    ] .
